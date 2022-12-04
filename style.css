@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: Gilroy;
+    src: url(./assets/font/Gilroy-ExtraBold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(./assets/font/Gilroy-Light.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+form{
+    display: flex;
+    font-family: 'Gilroy';
+    font-weight: normal;
+}
+
+.div_note-record{
+    width: 350px;
+}
+
+#div_notes-saved{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div_note-saved{
+    width: 350px;
+    margin-left: 10px;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+}
+
+textarea{
+    box-sizing: border-box;
+    background-color: rgb(240, 227, 227);
+    border: 0px;
+    width: 350px;
+    height: 250px;
+    resize: none;
+    font-size: large;
+    font-family: 'Gilroy';
+    font-weight: normal;
+    padding: 10px;
+    opacity: 75%;
+}
+
+.published_note{
+    opacity: 100%;
+    border: 2px solid rgb(230, 175, 175);
+    outline: none;
+}
+
+.div_button{
+    margin-top: 10px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0px 20px;
+    width: 350px;
+}
+
+input[type=button]{
+    background-color:rgb(0, 0, 0);
+    color:rgb(240, 227, 227);
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-size: larger;
+    width: 150px;
+    height: 40px;
+    margin: auto;
+}
+
+input[type=button]:hover{
+    background-color:rgb(240, 227, 227);
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+}
